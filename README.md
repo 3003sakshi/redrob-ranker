@@ -232,12 +232,14 @@ filtering that happens to catch honeypots as a side effect.
 ├── .gitignore                  # Excludes dataset, cache, venv, model weights
 │
 ├── candidates.jsonl            # NOT committed — download from hackathon portal
-├── job_description.txt         # NOT committed — download from hackathon portal
+├── job_description.txt         
 │
 ├── cache/                      # Auto-created on first run
 │   └── embedding_cache.pkl     # NOT committed — auto-generated (~2 GB)
 │
 └── team_SRJ_Prime.csv          # Final ranked output
+├── sample_candidates_100.jsonl          
+└── make_sample.py                
 ```
 
 ---
