@@ -1,8 +1,8 @@
-# SRJ Prime — Redrob Hackathon
+# SRJ Prime - Redrob Hackathon
 # Pinned to exact versions used during development and submission.
 # Tested on: Windows 11, Python 3.11, Intel CPU, 16GB RAM, no GPU.
 # Install: pip install -r requirements.txt
-# Note: torch 2.2.2 requires numpy <2.0. Do NOT upgrade numpy independently.
+# Note: torch==2.2.2 requires numpy<2.0. Do NOT upgrade numpy independently.
 
 sentence-transformers==3.0.1
 transformers==4.41.2
@@ -12,5 +12,5 @@ numpy==1.24.3
 scipy==1.11.4
 tqdm==4.66.1
 pyyaml==6.0.1
-rank-bm25
+rank-bm25==0.2.2
 huggingface-hub
